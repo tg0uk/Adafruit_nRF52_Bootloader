@@ -61,7 +61,7 @@
 #define USB_DESC_CDC_ONLY_PID  0x002A
 
 //------------- UF2 -------------//
-#define UF2_PRODUCT_NAME      "Adafruit Feather nRF52840 Express"
+#define UF2_PRODUCT_NAME      "etee Dongle"
 #define UF2_VOLUME_LABEL      "FTHR840BOOT"
 #define UF2_BOARD_ID          "nRF52840-Feather-revD"
 #define UF2_INDEX_URL         "https://www.adafruit.com/product/4062"
