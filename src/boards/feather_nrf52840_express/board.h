@@ -50,8 +50,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER   "Adafruit Industries"
-#define BLEDIS_MODEL          "Feather nRF52840 Express"
+#define BLEDIS_MANUFACTURER   "TG0"
+#define BLEDIS_MODEL          "etee Dongle"
 
 //--------------------------------------------------------------------+
 // USB
@@ -61,9 +61,9 @@
 #define USB_DESC_CDC_ONLY_PID  0x002A
 
 //------------- UF2 -------------//
-#define UF2_PRODUCT_NAME      "etee Dongle"
-#define UF2_VOLUME_LABEL      "FTHR840BOOT"
-#define UF2_BOARD_ID          "nRF52840-Feather-revD"
-#define UF2_INDEX_URL         "https://www.adafruit.com/product/4062"
+#define UF2_PRODUCT_NAME      "etee"
+#define UF2_VOLUME_LABEL      "eteeDongle"
+#define UF2_BOARD_ID          "eteeDongle"
+#define UF2_INDEX_URL         "https://etee.tg0.co.uk"
 
 #endif // _FEATHER_NRF52840_H
