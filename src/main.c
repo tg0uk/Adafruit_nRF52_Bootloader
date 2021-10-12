@@ -233,7 +233,7 @@ int main(void)
       bootloader_dfu_start(false, DFU_SERIAL_STARTUP_INTERVAL, false);
 #else
       // if RST is pressed during this delay --> if will enter dfu
-      NRFX_DELAY_MS(DFU_DBL_RESET_DELAY);
+      // NRFX_DELAY_MS(DFU_DBL_RESET_DELAY);
 #endif
     }
 
